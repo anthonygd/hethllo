@@ -25,7 +25,10 @@ dependencies:
 library:
   source-dirs: src
   dependencies:
+  - text
   - web3
+  - http-client-tls
+  - http-client
 
 executables:
   hethllo-exe:
